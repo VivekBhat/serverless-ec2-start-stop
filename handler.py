@@ -11,6 +11,16 @@ def start_ec2(event, context):
     )
     return response
 
+
+def stop_ec2(event, context):
+    ec2_instances = get_all_ec2_ids()
+    response = ec2.stop_instances(
+        InstanceIds=ec2_instances,
+        DryRun=False
+    )
+    return response
+
+
 # get the list of all the ec2 instances
 def get_all_ec2_ids():
     response = ec2.describe_instances(DryRun=False)
