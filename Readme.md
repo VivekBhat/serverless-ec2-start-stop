@@ -7,7 +7,7 @@ This example demonstrates how to automate the start and stop of your [AWS EC2](h
 
 ## Deploying the functions
 
-Run the follwoing command: `serverless deploy`
+Run the following command: `serverless deploy`
 
 ### Useful Links:
 
