@@ -3,11 +3,11 @@
 This example demonstrates how to automate the start and stop of your [AWS EC2](https://aws.amazon.com/ec2/) instances using  [AWS Lambda](https://aws.amazon.com/lambda/) and [AWS Cloudwatch](https://aws.amazon.com/cloudwatch/) with a cron job to do it.
 
 ## Architecture
-![architecture](architecture.png)
+![architecture](https://github.com/VivekBhat/serverless-ec2-start-stop/blob/master/architecture.png?raw=true)
 
 ## Deploying the functions
 
-Run the follwing command: `serverless deploy`
+Run the follwoing command: `serverless deploy`
 
 ### Useful Links:
 
